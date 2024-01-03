@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title></title>
+    <head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <title></title>
+        <style>
+            body{
+                background-color: black
+            }
+            h1{
+                font-size: 2.1rem;
+                line-height:1.4 ;
+                letter-spacing: 0.2em;
+                text-align: center;
+                color: white;
+                margin-top: 20px;
+            }
+            .maindiv{
+                width: 50%;
+                height: 300px;
+                position: absolute;
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%, -50%);
+                background-image:url(porsche-zoom1.webp) ;
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 5px rgb(63, 55, 55);
+                animation: slider 9s infinite linear;
+            }
+            .img-int{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+            }
+            .img-ext{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+                margin-left: 77%;
+            }
+            #text1{
+                height: 300px;
+                width: 300px;
+                border: 0;
+                font-size: 25px;
+                font-style: inherit;
+                position: relative;
+                text-align: center;
+                color: white;
+
+            }
+            #text2{
+                height: 150px;
+                width: 51%;
+                margin: auto;
+                margin-top: 22px;
+
+                font-size: 20px;
+                font-style: inherit;
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            #text3{
+            height: 300px;
+            width: 300px;
+            border: 0;
+            font-size: 25px;
+            font-style: inherit;
+            position: absolute;
+            right: 0;
+            inset: 0;
+            margin-left: 77%;
+            margin-top: 8%;
+            text-align: center;
+            color: white;
+            }
+
+            @keyframes slider {
+                0%{background-image:url(porsche-zoom2.webp)}
+
+                35%{background-image:url(porsche-zoom3\ \(1\).webp) ;}
+
+                75%{background-image:url(porsche-zoom4\ \(1\).webp) ;}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Porsche 911 Dakar</h1>
+        <div class="maindiv">
+        </div>
+        <div>
+            <img class="img-int" src="interior.jpg" alt="interior">
+
+        </div>
+        <div id="text1">Specifications:<br>
+            Number of Cylinders: 6<br>
+            Displacement: 4000cc<br>
+            Power[kW]: 353kW<br>
+            Power(PS): 480 PS<br>
+            Torque: 570 Nm<br>
+            Top Speed: 240 km/h<br>
+            0-60mph: 3.2s<br>
+            ¼ mile: 11.6s<br>
+            Ground Clearance: 161mm<br>
+            Fuel Capacity: 67L<br>
+            </div>
+            <div id="text2">
+                Whether on tarmac, gravel or sand: the stiffer unit mounts of the 911 GT3 increase the driving dynamics of the 911 Dakar, especially when driving off-road. Together with the rear-axle steering and PDCC active roll stabilization, the result is an optimally tuned chassis package that masters even the most difficult rally passages safely and comfortably. The 911 Dakar produces 353 kW (480 PS) of power, which is transferred to all four wheels by the 8-speed Porsche Doppelkupplung (PDK).
+            </div>
+            <div id="text3">
+                With an ex-showroom price of $223,000 the Dakar is sparsely available in the market due to its high demand and limited production. With people selling used ones at almost 1.5x the ex-factory price, it is hardly available.
+
+
+            </div>
+            <div>
+                <img class="img-ext" src="bottom right.jpg" alt="exterior">
+    
+            </div>
+    </body>
+</html>

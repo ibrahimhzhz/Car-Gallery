@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title></title>
+    <head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <title></title>
+        <style>
+            body{
+                background-color:black;
+            }
+            h1{
+                font-size: 2.1rem;
+                line-height:1.4 ;
+                letter-spacing: 0.2em;
+                text-align: center;
+                color: white;
+                margin-top: 20px;
+            }
+            .maindiv{
+                width: 50%;
+                height: 300px;
+                position: absolute;
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%, -50%);
+                background-image:url(cropped-cgtslideshow4.jpg) ;
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 5px rgb(63, 55, 55);
+                animation: slider 12s infinite linear;
+            }
+            .img-int{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+                border: 1px solid;
+            }
+            .img-ext{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+                margin-left: 77%;
+                border: 1px solid;
+
+            }
+            #text1{
+                height: 300px;
+                width: 300px;
+                border: 0;
+                font-size: 30px;
+                font-family:sans-serif ;
+                position: relative;
+                text-align: center;
+                color: white;
+
+
+            }
+            #text2{
+                height: 150px;
+                width: 51%;
+                margin: auto;
+                margin-top: 22px;
+
+                font-size: 20px;
+                font-family:sans-serif;
+                position: relative;
+                text-align: center;
+                color: white;
+
+            }
+            #text3{
+            height: 300px;
+            width: 300px;
+            border: 0;
+            font-size: 25px;
+            font-family:sans-serif;
+            position: absolute;
+            right: 0;
+            inset: 0;
+            margin-left: 77%;
+            margin-top: 8%;
+            text-align: center;
+            color: white;
+            }
+            #home{
+                color: white;
+            }
+
+            @keyframes slider {
+                0%{background-image:url(cropped-cgtslideshow.jpg)}
+
+                35%{background-image:url(cropped-cgtslideshow2.jpg) ;}
+
+                75%{background-image:url(cropped-cgtslideshow3.jpg) ;}
+            }
+            ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: white;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Porsche Carrera GT</h1>
+        <div class="maindiv">
+        </div>
+        <ul>
+            <li><a href="AICTproj.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        <div>
+            <img class="img-int" src="cropped-enginebaycgt.jpg" alt="interior">
+
+        </div>
+        <div id="text1">Specifications:<br>
+            Number of Cylinders: V10<br>
+            Horsepower: 603hp<br>
+            Naturally Aspirated<br>
+            Displacement:5700cc<br>
+            Top Speed:330 km/h<br>
+            Torque: 590 Nm<br>
+        </div>
+            <div id="text2">The Porsche Carrera GT (Project Code 980) is a mid-engine sports car that was manufactured by German automobile manufacturer Porsche from 2004 to 2006. Sports Car International named the Carrera GT number one on its list of Top Sports Cars of the 2000s, and number eight on its Top Sports Cars of All Time list. For its advanced technology and development of its chassis, Popular Science magazine awarded it the "Best of What's New" award in 2003.
+            </div>
+            <div id="text3">Launched at a price of $458,000 the CGT has now reached up to a price tag of an astonishing 1.5 million bucks still keeping its legacy. A newer more “robust” model, the Porsche Carrera 918 Spyder has been launched.
+            </div>
+            <div>
+                <img class="img-ext" src="cgtinterior.jpg" alt="interior">
+            </div>
+            <div id="home"> Home </div>
+    </body>
+</html>

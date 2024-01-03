@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title></title>
+    <head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <title></title>
+        <style>
+            body{
+                background-color: black
+            }
+            h1{
+                font-size: 2.1rem;
+                line-height:1.4 ;
+                letter-spacing: 0.5em;
+                text-align: center;
+                color: white;
+                margin-top: 20px;
+            }
+            .maindiv{
+                width: 50%;
+                height: 300px;
+                position: absolute;
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%, -50%);
+                background-image:url(cropped-cls.jpg) ;
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 5px rgb(63, 55, 55);
+                animation: slider 12s infinite linear;
+            }
+            .img-int{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+                border: 1px solid;
+            }
+            .img-ext{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+                margin-left: 77%;
+                border: 1px solid;
+
+            }
+            #text1{
+                height: 300px;
+                width: 300px;
+                border: 0;
+                font-size: 30px;
+                font-family: sans-serif;
+                position: relative;
+                text-align: center;
+                color: white;
+
+
+            }
+            #text2{
+                height: 150px;
+                width: 51%;
+                margin: auto;
+                margin-top: 22px;
+                color: white;
+
+                font-size: 20px;
+                font-family: sans-serif;
+                position: relative;
+                text-align: center;
+
+            }
+            #text3{
+            height: 300px;
+            width: 300px;
+            border: 0;
+            font-size: 25px;
+            font-family: sans-serif;
+            position: absolute;
+            right: 0;
+            inset: 0;
+            margin-left: 77%;
+            margin-top: 8%;
+            text-align: center;
+            color: white;
+
+
+            }
+
+            @keyframes slider {
+                25%{background-image:url(cropped-slideshow4\ \(2\).jpg)}
+
+                50%{background-image:url(cropped-slideshow3.jpg) ;}
+
+                75%{background-image:url(cropped-slideshow3.jpg) ;}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mercedes CLS63 AMG</h1>
+        <div class="maindiv">
+        </div>
+        
+        <div>
+            <img class="img-int" src="interiorcls.jpg" alt="interior">
+
+        </div>
+        <div id="text1">Specifications:<br>
+            Number of Cylinders: 8<br>
+            Horsepower: 850hp<br>
+            Biturbocharged<br>
+            Displacement:6000cc<br>
+            Top Speed:350 km/h<br>
+            Torque: 1450 Nm<br>
+            ¼ Mile: 3.0s<br></div>
+            <div id="text2">625 kW / 850 hp (838 bhp) and a peak torque of 1,450 Nm (1,069 lb-ft) thanks to a 6.0-liter eight-cylinder biturbo engine. With a top speed electronically limited to more than 350 km/h (217 mph) and wrapped in the designer outfit of the legendary BRABUS ROCKET 800. These are the most important features of the BRABUS 850 6.0 Biturbo WIDESTAR based on the four-door Mercedes CLS 63 AMG Coupe. With this unrivalled supercar BRABUS seamlessly continues its tradition of building high-performance automobiles for more than 35 years.</div>
+            <div id="text3">Being discontinued, the CLS is available in used condition, it is available under $100,000 and the Brabus 800R available over $100,000
+            </div>
+            <div>
+                <img class="img-ext" src="engine bay.jpg" alt="exterior">
+            </div>
+    </body>
+</html>

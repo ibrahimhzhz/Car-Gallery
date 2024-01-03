@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title></title>
+    <head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <title></title>
+        <style>
+            body{
+                background-color: black
+            }
+            h1{
+                font-size: 2.1rem;
+                line-height:1.4 ;
+                letter-spacing: 0.2em;
+                text-align: center;
+                color: white;
+                margin-top: 20px;
+            }
+            .maindiv{
+                width: 50%;
+                height: 300px;
+                position: absolute;
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%, -50%);
+                background-image:url(300sl5.jpg) ;
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 5px rgb(63, 55, 55);
+                animation: slider 9s infinite linear;
+            }
+            .img-int{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+            }
+            .img-ext{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+                margin-left: 77%;
+            }
+            #text1{
+                height: 300px;
+                width: 300px;
+                border: 0;
+                font-size: 25px;
+                font-style: inherit;
+                position: relative;
+                text-align: center;
+                color: white;
+
+            }
+            #text2{
+                height: 150px;
+                width: 51%;
+                margin: auto;
+                margin-top: 22px;
+
+                font-size: 20px;
+                font-style: inherit;
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            #text3{
+            height: 300px;
+            width: 300px;
+            border: 0;
+            font-size: 25px;
+            font-style: inherit;
+            position: absolute;
+            right: 0;
+            inset: 0;
+            margin-left: 77%;
+            margin-top: 8%;
+            text-align: center;
+            color: white;
+            }
+
+            @keyframes slider {
+                0%{background-image:url(300sl2.jpg)}
+
+                35%{background-image:url(300sl6.jpg) ;}
+
+                75%{background-image:url(300sl3\ \(2\).jpg) ;}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mercedes Benz 300sl Gullwing</h1>
+        <div class="maindiv">
+        </div>
+        <div>
+            <img class="img-int" src="interior300sl1.jpg" alt="interior">
+
+        </div>
+        <div id="text1"><br>Specifications:
+            Engine Type: Inline 6<br>
+            Horsepower: 222hp<br>
+            Naturally Aspirated<br>
+            Displacement:3000cc<br>
+            Top Speed:263 km/h<br>
+            Torque: 465 Nm<br>
+            Transmission: 4-speed M/T<br>
+            0-100 km/h: 3.2s<br>
+            Generation: W198/W121<br>
+            
+        </div>
+            <div id="text2">
+                The Mercedes-Benz 300 SL (chassis code W 198) is a two-seat sports car that was produced by Mercedes-Benz from 1954 to 1957 as a gullwinged coupé and from 1957 to 1963 as a roadster. The 300 SL traces its origins to the company's 1952 racing car, the W194, and was equipped with a mechanical direct fuel injection system that significantly increased the power output of its three-liter overhead camshaft straight-six engine.
+            </div>
+            <div id="text3">
+                Around 24 of these beauties are left in the world with none of them on sale. With a lot of them being owned by vintage car collectors, the last one was sold for more than $15,000,000.
+
+
+            </div>
+            <div>
+                <img class="img-ext" src="interior300sl.jpg" alt="exterior">
+    
+            </div>
+    </body>
+</html>

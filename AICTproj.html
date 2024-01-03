@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <title></title>
+    <header>
+        <h1>Car Gallery</h1>
+    </header>
+</title>
+	<style>
+       body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+        }
+
+		header {
+		background-color: #333;
+		color: #fff;
+		text-align: center;
+		padding: 1em;
+		}
+
+		.gallery-table {
+		width: 80%;
+		margin: 20px auto;
+		border-collapse: collapse;
+		}
+
+		.gallery-table td {
+		padding: 10px;
+		text-align: center;
+		border: 1px solid #ddd;
+		overflow: hidden;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		position: relative;
+		}
+
+		.gallery-table img {
+		width: 320x;
+		height: 180px;
+		transition: transform 0.3s ease-in-out;
+		}
+
+		.gallery-table td:hover img {
+		transform: scale(1.2);
+		opacity: 0.5;
+		transition:opacity 0.5s;
+		}
+
+		.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.5);
+		color: #fff;
+		opacity: 0;
+		transition: opacity 0.5s ease-in-out;
+		text-align: center;
+		padding: 10px;
+		}
+
+		.gallery-table td:hover .overlay {
+		opacity: 1;
+		}
+        .name{
+        font-style: italic;
+        }
+        .details {
+        text-align: center;
+        margin-top: 50px; /* optional: adjust the top margin as needed */
+        margin-right: 15px;
+        }
+        </style>
+
+    <table class="gallery-table">
+        <tr>
+            <td> <img src="dakar.webp" alt="Image 1">
+                <div class="overlay">
+                    <a href="dakar.html"> <p class="details"> The Porsche 911 Dakar was intoduced in 2022 for the more "rough" 911 enthusiast, powered by a hybrid flat-six engine, it can reach speeds upt 240km/h with an astonishsing 11.6s quarter mile figure. </p></a>
+                </div>
+                <p class="name"> Porsche 911 Dakar </p>
+
+            </td>
+            <td><img src="cls63.jpg" alt="Image 2">
+                <div class="overlay">
+                    <a href="cls63.html"> <p class="details"> The cls63 known for its predator rear lights, features a 6.0 liter v8 biturbo engine handling around 850hp. This special edition has a max speed of upto 350km/h and is designed and tuned by Brabus. I it also known as BRABUS rocket 800 </p></a>
+                </div>
+                <p class="name"> Mercedes CLS63 Brabus </p>
+
+            </td>
+            <td>  <img src="cgt.jpg" alt="Image 3">
+            <div class="overlay">
+                <a href="cgt.html"> <p class="details"> The Porsche Carrera GT was launched in 2004. Featuring a 5.7l screaming N/A V10 and being a mid-engine supercar, it is known for getting out of control. Priced at around a milllion dollars its nothing but a gem.  </p></a>
+                </div>
+                <p class="name"> Porsche Carrera GT </p>
+            </td>
+        </tr>
+
+        <tr>
+            <td><img src="GT3RS.webp" alt="Image 4">
+                <div class="overlay">
+                    <a href="gt3rs.html"><p class="details"> The 992 GT3rs is the most famous among the other 911s because of its track focused aerodynamics and amazing performance figures. It boasts a 4.0 liter naturally aspirated flat six pushing 520hp. It the completed 20.8-kilometre Nordschleife of the Nürburgring in 6:49.328 minutes. </p></a>
+                </div>
+                <p class="name"> Porsche 911 GT3rs </p>
+
+            </td>
+            <td><img src="300sl.jpg" alt="Image 5">
+                <div class="overlay">
+                    <a href="300sl.html">  <p class="details">Launched in 1954, the gullwing lookslike a classic spaceship. with its gullwing doors and big round eyes, its a feast for everyones eyes. If anything, it was never made to speed but it doesnt fall short with a astonishing 8.6s 0-100 considering its over 70 years old. </p> </a>
+                </div>
+                <p class="name"> Mercedes 300 SL Gullwing </p>
+            </td>
+            <td><img src="c63.jpg" alt="Image 6">
+                <div class="overlay">
+                    <a href="c63.html">  <p class="details"> The C63 AMG, also known as the German muscle car is an untamed monster. Boasting the M155, a 6.2L V8 naturally aspirated engine it sounds absolutely amazing. I believe its not made for speeds but just for burning rubber and absolutely not for economy.  </p> </a>
+                </div>
+                <p class="name"> Mercedes C63 AMG </p> </p>
+
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

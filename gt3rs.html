@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title></title>
+    <head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<body>
+    <title></title>
+        <style>
+            body{
+                background-color: black
+            }
+            h1{
+                font-size: 2.1rem;
+                line-height:1.4 ;
+                letter-spacing: 0.2em;
+                text-align: center;
+                color: white;
+                margin-top: 20px;
+            }
+            .maindiv{
+                width: 50%;
+                height: 300px;
+                position: absolute;
+                left: 50%;
+                top: 40%;
+                transform: translate(-50%, -50%);
+                background-image:url(slideshowgt3rs4.webp) ;
+                background-size: 100% 100%;
+                box-shadow: 1px 2px 10px 5px rgb(63, 55, 55);
+                animation: slider 9s infinite linear;
+            }
+            .img-int{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+            }
+            .img-ext{
+                width: 270px;
+                height: 148px;
+                position: absolute;
+                top: 70%;
+                margin-left: 77%;
+            }
+            #text1{
+                height: 300px;
+                width: 300px;
+                border: 0;
+                font-size: 25px;
+                font-style: inherit;
+                position: relative;
+                text-align: center;
+                color: white;
+
+            }
+            #text2{
+                height: 150px;
+                width: 51%;
+                margin: auto;
+                margin-top: 22px;
+
+                font-size: 20px;
+                font-style: inherit;
+                position: relative;
+                text-align: center;
+                color: white;
+            }
+            #text3{
+            height: 300px;
+            width: 300px;
+            border: 0;
+            font-size: 25px;
+            font-style: inherit;
+            position: absolute;
+            right: 0;
+            inset: 0;
+            margin-left: 77%;
+            margin-top: 8%;
+            text-align: center;
+            color: white;
+            }
+
+            @keyframes slider {
+                0%{background-image:url(slideshowgt3rs.webp)}
+
+                35%{background-image:url(slideshowgt3rs2.webp) ;}
+
+                75%{background-image:url(slideshowgt3rs3.webp) ;}
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Porsche 911 Dakar</h1>
+        <div class="maindiv">
+        </div>
+        <div>
+            <img class="img-int" src="gt3rsright.webp" alt="interior">
+
+        </div>
+        <div id="text1">Specifications:
+            Engine Type: Flat 6
+            Horsepower: 518hp
+            Naturally Aspirated
+            Displacement:4000cc
+            Top Speed:296 km/h
+            Torque: 465 Nm
+            Transmission: 7-speed PDK
+            0-100 km/h: 3.2s
+        </div>
+            <div id="text2">Athletes know: top performance requires more than perfect conditions and luck. Relentless training to become stronger and faster. Questioning everything, especially yourself. Learning from every mistake. Because the biggest challenge is to remain unbeatable. With this attitude, Porsche keeps pushing the boundaries of what is possible. Experience the new 911 GT3 RS in top form - with increased race track performance.
+            </div>
+            <div id="text3">
+                Starting at $184,550 and going to $250,000 for the GT3rs, it is hardly affordable but being an engineering legend, it’s a dream car for every enthusiast. 
+
+
+            </div>
+            <div>
+                <img class="img-ext" src="intgt3rs.webp" alt="exterior">
+    
+            </div>
+    </body>
+</html>
